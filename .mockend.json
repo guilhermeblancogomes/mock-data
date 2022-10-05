@@ -1,0 +1,106 @@
+{
+  "maintenance": {
+    "active": false,
+    "title": "XP informa... Estamos em manutenção",
+    "subtitle": "Previsão de volta 03/10/2022 - 17h30min"
+  },
+  "brand": {
+    "id": "CZ+arjhDg41f8Rnwck6Q1Q",
+    "name":"xp"
+  },
+  "projects": {
+    "dashboard": {
+      "active": true,
+      "features":{
+        "patrimony": {
+          "isVisible": true,
+          "order": 1
+        },
+        "risk":{
+          "isVisible": true,
+          "order": 2
+        },
+        "strategy":{
+          "isVisible": true,
+          "order": 3
+        },
+        "wallet":{
+          "isVisible": false,
+          "order": 4,
+          "personalization": [
+            {
+              "name": "filter",
+              "order": 1,
+              "visible": false
+            },
+            {
+              "name": "investments",
+              "order": 2,
+              "visible": true
+            },
+            {
+              "name": "profit",
+              "order": 3,
+              "visible": false
+            }
+          ],
+          "hasCTA": true,
+          "limit": 5
+        },
+        "performanceWallet":{
+          "isVisible": true,
+          "order": 5
+        },
+        "blog":{
+          "isVisible": true,
+          "order": 6
+        }
+      }
+    },
+    "wallet": {
+      "active": true,
+      "features":{
+        "patrimony": {
+          "isVisible": true,
+          "order": 1
+        },
+        "investments":{
+          "isVisible": true,
+          "order": 2
+        }
+      }
+    },
+    "evolution": {
+      "active": true,
+      "features":{
+        "patrimony": {
+          "isVisible": true,
+          "order": 1
+        },
+        "assetDevelopment":{
+          "isVisible": true,
+          "order": 2
+        },
+        "patrimonyPeriod":{
+          "isVisible": true,
+          "order": 3
+        },
+        "profitability":{
+          "isVisible": true,
+          "order": 4
+        },
+        "statistics":{
+          "isVisible": true,
+          "order": 5
+        }
+      }
+    }
+  },
+  "rules":{
+    "isHub": false,
+    "isRpps": false,
+    "hasAbs": false,
+    "hideGenio": true,
+    "isRico": false
+  }
+}
